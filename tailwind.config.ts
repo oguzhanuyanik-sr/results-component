@@ -27,28 +27,12 @@ const config: Config = {
       lightPurple: '#CAC9FF',
       veryLightBlue: '#ECF2FF',
     },
-    fontFamily: {
-      space: 'var(--font-space)',
-      lexend: 'var(--font-lexend)',
-    },
-    boxShadow: {},
-    container: {
-      center: true,
-      padding: '4rem',
-      screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
-      },
-    },
     backgroundImage: {
       darkBlueGradient:
         'linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%)',
       blueGradient:
         'linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%)',
     },
-    extend: {},
   },
   plugins: [],
 };

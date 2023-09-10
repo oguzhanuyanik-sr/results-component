@@ -3,7 +3,14 @@ import Memory from '@/public/icon-memory.svg';
 import Verbal from '@/public/icon-verbal.svg';
 import Visual from '@/public/icon-visual.svg';
 
-const summaryItemData = [
+interface SummaryItemProps {
+  icon: string;
+  title: string;
+  rate: string;
+  color: 'red' | 'yellow' | 'green' | 'blue';
+}
+
+const summaryItemData: SummaryItemProps[] = [
   {
     icon: Reaction,
     title: 'Reaction',

@@ -6,7 +6,7 @@ const grotesk = Hanken_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Results Component',
-  description: 'Performance results.',
+  description: 'Performance results and summary.',
 };
 
 export default function RootLayout({

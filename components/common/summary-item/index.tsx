@@ -22,7 +22,7 @@ const SummaryItem = ({ icon, title, rate, color }: SummaryItemProps) => {
     >
       <div className='flex'>
         <Image src={icon} alt={title} />
-        <p>{title}</p>
+        <p className='ml-4 font-medium text-lg'>{title}</p>
       </div>
       <p className='font-bold text-base text-darkBlue'>
         {rate} <span className='opacity-50'>/ 100</span>

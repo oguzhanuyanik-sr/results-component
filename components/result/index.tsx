@@ -1,9 +1,7 @@
 import React from 'react';
-import CardLayout from '@/components/layout/CardLayout';
+import CardLayout from '@/components/layout/card-layout';
 
-type Props = {};
-
-const Result = (props: Props) => {
+const Result = () => {
   return (
     <CardLayout styles='bg-blueGradient'>
       <p className='title text-lightPurple mb-10 px-10'>Your Result</p>

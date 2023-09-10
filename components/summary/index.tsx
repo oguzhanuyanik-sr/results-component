@@ -1,12 +1,10 @@
 import React from 'react';
-import CardLayout from '../layout/CardLayout';
+import CardLayout from '../layout/card-layout';
 import SummaryItem from '../common/summary-item';
 import { summaryItemData } from '@/constants';
 import Link from 'next/link';
 
-type Props = {};
-
-const Summary = (props: Props) => {
+const Summary = () => {
   return (
     <CardLayout styles='bg-white text-darkBlue px-10'>
       <p className='title mb-7 text-start md:text-center w-full'>Summary</p>
