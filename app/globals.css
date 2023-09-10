@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-veryLightBlue flex justify-center items-center md:min-h-screen overflow-x-hidden w-full;
+  }
+}
+
+@layer components {
+  .heading {
+    @apply font-bold text-[24px] md:text-[32px];
+  }
+
+  .title {
+    @apply font-bold text-lg md:text-2xl;
+  }
+
+  .text {
+    @apply font-medium text-base md:text-lg;
+  }
+}
